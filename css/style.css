@@ -8,6 +8,7 @@
  */
  body {
      font-family: roboto;
+     margin: 0;
  }
 .first-section {
     display: flex;
@@ -49,6 +50,7 @@ h1 {
 }*/
 .projects-cards-containers {
    display: flex;
+   flex-wrap: wrap;
    justify-content: space-around;
    margin: auto;
    width: 70%;
@@ -60,9 +62,13 @@ h1 {
    width: 400px;
    height: 400px;
 }
-.card-2 {
+/*.card-2 {
     background-color: darkgrey;
     width: 400px;
     height: 400px;
- }
-
+ }*/
+#footer {
+    background: linear-gradient(35deg, rgb(154, 247, 247), rgb(247, 187, 187));
+    margin-top: 50px;
+    padding: 3% 0;
+}
