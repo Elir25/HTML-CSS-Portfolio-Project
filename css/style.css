@@ -6,3 +6,23 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+ body {
+     font-family: Arial, Helvetica, sans-serif;
+ }
+.first-section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: linear-gradient(35deg, rgb(154, 247, 247), rgb(247, 187, 187));
+    padding: 10% 0%;
+}
+.first-content {
+    display: flex;
+    width: 60%;
+    height: 300px;
+    padding: 0px;
+}
+.avatar-eli {
+    height: 200px;
+    border-radius: 50%;
+}
